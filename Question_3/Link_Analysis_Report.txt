@@ -1,0 +1,5 @@
+
+--- Reading Hard Link ---
+
+--- Reading Symbolic Link ---
+cat: symlink.txt: No such file or directory
