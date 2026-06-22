@@ -1,0 +1,24 @@
+--- User and Groups ---
+codespace
+codespace pipx python oryx golang docker sdkman rvm php conda nvs nvm hugo ssh
+
+--- Current Shell ---
+/bin/bash
+
+--- Current Working Directory ---
+/workspaces/CLI_SGA1
+
+--- Workspace Contents ---
+total 20
+drwxrwxrwx+ 4 codespace root      4096 Jun 22 15:15 .
+drwxr-xrwx+ 5 codespace root      4096 Jun 22 14:33 ..
+drwxrwxrwx+ 8 codespace root      4096 Jun 22 14:33 .git
+-rw-rw-rw-  1 codespace codespace  230 Jun 22 15:15 Environment_Report.txt
+drwxrwxrwx+ 2 codespace codespace 4096 Jun 22 15:12 Question_1
+
+--- Network Connectivity ---
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3109ms
+
