@@ -1,0 +1,13 @@
+STORAGE ASSESSMENT REPORT
+-------------------------
+
+1. STORAGE HEALTH OBSERVATIONS:
+Based on the outputs of the lsblk, df -h, and df -i commands, the current storage environment is healthy and ready for the new application deployment. 
+- The root partition (/) has ample free block space, remaining comfortably below critical capacity thresholds. 
+- Inode utilization (df -i) is exceptionally low, meaning there is zero immediate risk of the system failing to create new files due to inode exhaustion.
+- The block devices (lsblk) are correctly partitioned and mounted without errors.
+
+2. RECOMMENDATIONS FOR IMPROVING STORAGE UTILIZATION:
+- Implement an automated monitoring script (using cron) to alert administrators if root partition disk usage exceeds 80%.
+- Establish a log rotation policy for /var/log to prevent runaway application logs from consuming unnecessary blocks and inodes.
+- Periodically clear temporary cloud container caches to maintain optimal available space.
